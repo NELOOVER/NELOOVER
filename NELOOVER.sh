@@ -44,12 +44,17 @@ sudo luarocks install luautf8
 cd .. ;sudo rm -rf luarocks*
 sudo timedatectl set-timezone Asia/Baghdad
 echo -e "\033[0;36m"
-echo -e "___________                     "
-echo -e "\__    ___/______  _______  ___ "
-echo -e "  |    |  \_  __ \/  _ \  \/  / "
-echo -e "  |    |   |  | \(  <_> >    <  "
-echo -e "  |____|   |__|   \____/__/\_ \ "
-echo -e "                             \/ "
+echo -e "                     "
+echo -e ""
+echo -e " "
+echo -e "  "
+echo -e " 
+╔═╦╗╔═╗╔╗─╔═╗╔═╗╔╗─╔╗╔═╗╔═╗
+║║║║║╦╝║║─║║║║║║║╚╦╝║║╦╝║╬║
+║║║║║╩╗║╚╗║║║║║║╚╗║╔╝║╩╗║╗╣
+╚╩═╝╚═╝╚═╝╚═╝╚═╝─╚═╝─╚═╝╚╩╝
+───────────────────────────"
+echo -e ""
 echo -e "\033[0m"
 cd $THIS_DIR && sudo chmod +x tg
 lua NELOOVER.lua
